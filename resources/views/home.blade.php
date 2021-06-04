@@ -14,14 +14,17 @@
 {{-- Triple Icon div includes 3 icons with additional info in text --}}
 <div class="triple-icon-div">
     <div class="triple-icon_one">
+        <img class="triple-icon-img" src="/images/veelmeerleads.png" alt="veelmeerleads Image">
         <h3>Veel meer leads</h3>
         <p>Optas solestissin eos wer dolen</p>
     </div>
     <div class="triple-icon_two">
+        <img class="triple-icon-img" src="/images/duidelijkeprijsbepaling.png" alt="veelmeerleads Image">
         <h3>Duidelijke prijs bepaling</h3>
         <p>Optas solestissin eos wer dolen</p>
     </div>
     <div class="triple-icon_three">
+        <img class="triple-icon-img" src="/images/hogerrendement.png" alt="veelmeerleads Image">
         <h3>Hoger rendement</h3>
         <p>Optas solestissin eos dolen fds</p>
     </div>
