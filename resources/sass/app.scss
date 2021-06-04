@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+//______________________________________________________Variables___//
+$font-1: 'Nunito', sans-serif;
+$font-2: 'MateSC', serif;
+
+body {
+    //________________________________________Color and fonts___//
+    background-color: white;
+    color: black;
+    font-family: $font-1;
+    font-size: 5rem;
+
+
+    //________________________________________Dimensions___//
+    height: 100vh;
+    width: auto;
+
+    margin: 0%;
+    padding: 0%;
+
+    position: relative;
+}
+
+
+//___________________________________________General_Setup___//
+a {
+    text-decoration: none;
+}
+
+
+//___________________________________________Imports___//
+@import 'home.scss';
+@import 'partials/navbar.scss';
