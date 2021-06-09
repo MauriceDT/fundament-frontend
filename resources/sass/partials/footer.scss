@@ -1,11 +1,12 @@
 .footer {
-    margin-top: 15rem;
+    margin-top: 17rem;
     background-color: #333;
     width: 100%;
     height: 7rem;
 }
-.socials {
+.footer-socials {
     float: left;
+    margin-left: 7rem;
 }
 .footer-text {
     font-size: 1.5rem;
@@ -20,5 +21,7 @@
     filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(299deg) brightness(102%) contrast(102%);
 }
 .img-twitter {
-    height: 5rem;
+    height: 3.5rem;
+    margin-left: 2rem;
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(299deg) brightness(102%) contrast(102%);
 }

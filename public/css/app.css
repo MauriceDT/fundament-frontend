@@ -368,9 +368,21 @@ a {
   flex-direction: column;
 }
 
+.form input::-moz-placeholder {
+  color: #a7a7a7;
+}
+
+.form input:-ms-input-placeholder {
+  color: #a7a7a7;
+}
+
+.form input::placeholder {
+  color: #a7a7a7;
+}
+
 .form input {
   font-size: 2rem;
-  font-weight: 300;
+  font-weight: 100;
   width: 30rem;
   height: 4rem;
   padding-left: 1rem;
@@ -445,14 +457,15 @@ a {
 }
 
 .footer {
-  margin-top: 15rem;
+  margin-top: 17rem;
   background-color: #333;
   width: 100%;
   height: 7rem;
 }
 
-.socials {
+.footer-socials {
   float: left;
+  margin-left: 7rem;
 }
 
 .footer-text {
@@ -470,6 +483,8 @@ a {
 }
 
 .img-twitter {
-  height: 5rem;
+  height: 3.5rem;
+  margin-left: 2rem;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(299deg) brightness(102%) contrast(102%);
 }
 

@@ -316,9 +316,12 @@
     align-items: center;
     flex-direction: column;
 }
+.form input::placeholder {
+    color: rgb(167, 167, 167);
+}
 .form input {
     font-size: 2rem;
-    font-weight: 300;
+    font-weight: 100;
     width: 30rem;
     height: 4rem;
     padding-left: 1rem;
