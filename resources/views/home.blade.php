@@ -3,7 +3,7 @@
 @include('partials.navbar')
 
 {{-- Main Div including background img of Groningen and centered text --}}
-<div class="main-div">
+<div class="main-div" id="home">
     <h1>PRE-SALE</h1>
     <h3>'Maximaal inspelen van de markt'</h3>
     <div class="main-div-buttons">
@@ -12,7 +12,7 @@
     </div>
 </div>
 {{-- Triple Icon div includes 3 icons with additional info in text --}}
-<div class="triple-icon-div">
+<div class="triple-icon-div" >
     <div class="triple-icon_one">
         <img class="triple-icon-img" src="/images/veelmeerleads.png" alt="veelmeerleads Image">
         <h3>Veel meer leads</h3>
@@ -31,7 +31,7 @@
 </div>
 <div class="underline"></div>
 {{-- Laptop div which includes an image of a laptop and text on the left side --}}
-<div class="laptop-div">
+<div class="laptop-div" id="pre-sale">
         <img src="/images/laptop_bg.png" alt="PNG image of a laptop">
     <div class="laptop-div-left">
         <h1 class="laptop-div-title">PRESALE IS</h1>
@@ -56,7 +56,7 @@
     </div>
 </div>
 {{-- Grey divs with info on the left side, and an image on the right side --}}
-<div class="grey-div">
+<div class="grey-div" id="uitleg">
     <div class="grey-div-left">
         <h1 id="grey-div-first-h1">UITLEG</h1>
         <p>Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es au
@@ -128,7 +128,7 @@
     </div>
 </div>
 {{-- Contact form, a form with 3 input fields asking for name, phone number and email --}}
-<div class="contact-form">
+<div class="contact-form" id="contact">
     <h1>CONTACT</h1>
     <div class="underline"></div>
     <h2>Wij zullen zo spoedig mogelijk contact <br> met jullie opnemen</h2>

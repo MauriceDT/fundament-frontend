@@ -7,5 +7,13 @@
         Powered by Fundament All Media
     </div>
 </div>
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+    const scroll = new SmoothScroll('.topnavbar a[href*="#"]', {
+    speed: 800
+});
+</script>
+
 </body>
 </html>
