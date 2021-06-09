@@ -7,7 +7,7 @@
     </div>
     <div class="topnavbar-right">
         <a href="#uitleg">Uitleg</a>
-        <a href="#about">Contact</a>
+        <a href="#contact">Contact</a>
     </div>
 </div>
 <button class="topnavbar-button">P</button>
