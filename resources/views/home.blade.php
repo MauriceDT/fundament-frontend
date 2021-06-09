@@ -84,48 +84,60 @@
 <div class="pricing-div">
     <h1>PRIJZEN</h1>
     <div class="underline"></div>
-    <div class="pricing-card">
-        <div class="pricing-card-top">
-            <h2>Basic</h2>
-            <div class="pricing-card-price-outer">
-                <div class="pricing-card-price-inner">
-                    $1296,-
+    <div class="pricing-card-outer">
+        <div class="pricing-card">
+            <div class="pricing-card-top">
+                <h2>Basic</h2>
+                <div class="pricing-card-price-outer">
+                    <div class="pricing-card-price-inner">
+                        $1296,-
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="pricing-card-body">
-            <p>
-                Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti
-                iduciumet as molectatur solut fuga. Lacesti aut adiciendio.
-                Et es aut Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti
-                iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos
-                wer dolenEhenimus.
-            </p>
-            <button class="btn-pricing">Bestel</button>
-        </div>
-    </div>
-    <div class="pricing-card">
-        <div class="pricing-card-top">
-            <h2>Premium</h2>
-            <div class="pricing-card-price-outer">
-                <div class="pricing-card-price-inner">
-                    $1576,-
-                </div>
+            <div class="pricing-card-body">
+                <p>
+                    Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti
+                    iduciumet as molectatur solut fuga. Lacesti aut adiciendio.
+                    Et es aut Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti
+                    iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos
+                    wer dolenEhenimus.
+                </p>
+                <button class="btn-pricing">Bestel</button>
             </div>
         </div>
-        <div class="pricing-card-body">
-            <p>
-                Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti
-                iduciumet as molectatur solut fuga. Lacesti aut adiciendio.
-                Et es aut Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti
-                iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos
-                wer dolenEhenimus.
-            </p>
-            <button class="btn-pricing">Bestel</button>
+        <div class="pricing-card">
+            <div class="pricing-card-top">
+                <h2>Premium</h2>
+                <div class="pricing-card-price-outer">
+                    <div class="pricing-card-price-inner">
+                        $1576,-
+                    </div>
+                </div>
+            </div>
+            <div class="pricing-card-body">
+                <p>
+                    Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti
+                    iduciumet as molectatur solut fuga. Lacesti aut adiciendio.
+                    Et es aut Eos wer dolenEhenimus. Nit ra sequi vera venimus rate doloresti
+                    iduciumet as molectatur solut fuga. Lacesti aut adiciendio. Et es aut Eos
+                    wer dolenEhenimus.
+                </p>
+                <button class="btn-pricing">Bestel</button>
+            </div>
         </div>
     </div>
+</div>
+{{-- Contact form, a form with 3 input fields asking for name, phone number and email --}}
+<div class="contact-form">
     <h1>CONTACT</h1>
     <div class="underline"></div>
+    <h2>Wij zullen zo spoedig mogelijk contact <br> met jullie opnemen</h2>
+    <form class="form" action="#">
+        <input type="text" name="name" id="name" placeholder="Naam">
+        <input type="text" name="phonenumber" id="phonenumber" placeholder="Telefoonnummer">
+        <input type="email" name="email" id="email" placeholder="Email adres">
+        <button class="btn-form">Zoek contact</button>
+    </form>
 </div>
 
 @include('partials.footer')
