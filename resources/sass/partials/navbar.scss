@@ -41,3 +41,28 @@
     top: 1%;
     z-index: 1;
 }
+
+
+//__________________________________________________________MOBILE BREAKPOINT!___//
+@media (max-width: 1023px){
+    .topnavbar {
+        height: 5rem;
+        font-size: 1rem;
+        overflow: hidden;
+        justify-content: center;
+        position: relative;
+    }
+    .topnavbar a {
+        margin: 1rem;
+    }
+    .topnavbar-button {
+        display: none;
+    }
+
+}
+
+@media (max-width: 1023px) and (min-width: 700px) {
+    .topnavbar {
+        font-size: 2rem;
+    }
+}

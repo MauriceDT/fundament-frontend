@@ -2,7 +2,8 @@
 $font-1: 'Nunito', sans-serif;
 $font-2: 'MateSC', serif;
 
-$paddingleft: 5rem;
+$paddingleft:       5rem;
+$paddingleft_s:     2.5rem;
 
 body {
     //________________________________________Color and fonts___//
@@ -33,3 +34,4 @@ a {
 @import 'home.scss';
 @import 'partials/navbar.scss';
 @import 'partials/footer.scss';
+@import 'mobile.scss';
